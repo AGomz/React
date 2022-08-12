@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.contenedor{
+  outline: 2px solid orange;
+  margin: 1em;
+}
+a{
+  text-decoration: none;
+}
