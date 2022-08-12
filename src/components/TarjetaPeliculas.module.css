@@ -1,0 +1,12 @@
+.tarjetaPeliculas{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.imagenPelicula{
+    background-color: aquamarine;
+}
+.tituloPelicula{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}

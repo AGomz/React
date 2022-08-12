@@ -1,14 +1,14 @@
-import { CarteleraPeliculas } from "./CarteleraPeliculas";
-import { TarjetaPeliculas } from "./TarjetaPeliculas";
+import { CarteleraPeliculas } from "./components/CarteleraPeliculas";
+import styles from './App.module.css';
 
 export function App(){
     return <div>
         <header>
-            <h1>Sitio pelis</h1>
+            <h1 className={styles.titulo}>Sitio pelis</h1>
         </header>
         <main>
            <CarteleraPeliculas />
-           <TarjetaPeliculas />
+           
         </main>
     </div>;
 }
